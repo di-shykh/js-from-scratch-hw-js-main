@@ -9,7 +9,7 @@ function findLargest(a, b, c) {
   // if (c - b >= 0) {
   //   max = c;
   // }
-  let max = a > b ? a : b;
-  max = b > c ? b : c;
+  let max = a >= b ? a : b;
+  max = b >= c ? b : c;
   return max;
 }
