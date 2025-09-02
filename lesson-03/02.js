@@ -2,5 +2,5 @@
 // Функция должна возвращать true, если число чётное, и false — в противном случае
 
 function isEven(num) {
-  return nun % 2 === 0 ? true : false;
+  return num % 2 === 0 ? true : false;
 }
